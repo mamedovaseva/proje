@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, NavLink } from "react-router-dom";
 import Films from './Components/Left/Films';
 import List from './Components/Right/List';
 import './App.css';
